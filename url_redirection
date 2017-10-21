@@ -1,6 +1,7 @@
 //www.google.com/%2e%2e
 /%5cgoogle.com
 //google.com/%2f..
+///example.com/%2f..
 //www.google.com/%2f%2e%2e
 //google.com/
 //evil.com//
@@ -9,3 +10,19 @@
 ///www.google.com/%2f%2e%2e
 /%09/google.com
 https:/%5cgoogle.com/
+/http://example.com
+/////example.com/
+/////example.com
+/%2f%2fexample.com
+/example.com/%2f%2e%2e
+/http:/example.com
+/?url=http://example.com&next=http://example.com&redirect=http://example.com&redir=http://example.com&rurl=http://example.com
+/?url=//example.com&next=//example.com&redirect=//example.com&redir=//example.com&rurl=//example.com
+/?url=/\/example.com&next=/\/example.com&redirect=/\/example.com
+/redirect?url=http://example.com&next=http://example.com&redirect=http://example.com&redir=http://example.com&rurl=http://example.com
+/redirect?url=//example.com&next=//example.com&redirect=//example.com&redir=//example.com&rurl=//example.com
+/redirect?url=/\/example.com&next=/\/example.com&redirect=/\/example.com&redir=/\/example.com&rurl=/\/example.com
+/.example.com
+///\;@example.com
+///example.com/
+///example.com
